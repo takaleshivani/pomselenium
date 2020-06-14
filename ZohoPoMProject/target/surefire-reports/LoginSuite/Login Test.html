@@ -1,12 +1,17 @@
 <html>
 <head>
-<title>TestNG:  Login Test</title>
+<title>TestNG: Login Test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
 <style type="text/css">
-.log { display: none;} 
-.stack-trace { display: none;} 
+.log {
+	display: none;
+}
+
+.stack-trace {
+	display: none;
+}
 </style>
 <script type="text/javascript">
 <!--
@@ -53,30 +58,50 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Login Test</h2><table border='1' align="center">
-<tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
-</tr><tr>
-<td>Started on:</td><td>Sun Jun 14 11:30:46 IST 2020</td>
-</tr>
-<tr><td>Total time:</td><td>27 seconds (27980 ms)</td>
-</tr><tr>
-<td>Included groups:</td><td></td>
-</tr><tr>
-<td>Excluded groups:</td><td></td>
-</tr>
-</table><p/>
-<small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.zoho.suite.testcases.login.LoginTest.loginTest()'><b>loginTest</b><br>Test class: com.zoho.suite.testcases.login.LoginTest<br>Parameters: {Username=shivanitakale10@gmail.com, RunMode=Y, Password=Fast@1104, PasswordValid=Y, UsernameValid=Y, Browser=Firefox}</td>
-<td><div><pre>org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+	<h2 align='center'>Login Test</h2>
+	<table border='1' align="center">
+		<tr>
+			<td>Tests passed/Failed/Skipped:</td>
+			<td>0/1/0</td>
+		</tr>
+		<tr>
+			<td>Started on:</td>
+			<td>Sun Jun 14 11:30:46 IST 2020</td>
+		</tr>
+		<tr>
+			<td>Total time:</td>
+			<td>27 seconds (27980 ms)</td>
+		</tr>
+		<tr>
+			<td>Included groups:</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Excluded groups:</td>
+			<td></td>
+		</tr>
+	</table>
+	<p />
+	<small><i>(Hover the method name to see the test class
+			name)</i></small>
+	<p />
+	<table width='100%' border='1' class='invocation-failed'>
+		<tr>
+			<td colspan='4' align='center'><b>FAILED TESTS</b></td>
+		</tr>
+		<tr>
+			<td><b>Test method</b></td>
+			<td width="30%"><b>Exception</b></td>
+			<td width="10%"><b>Time (seconds)</b></td>
+			<td><b>Instance</b></td>
+		</tr>
+		<tr>
+			<td title='com.zoho.suite.testcases.login.LoginTest.loginTest()'><b>loginTest</b><br>Test
+				class: com.zoho.suite.testcases.login.LoginTest<br>Parameters:
+				{Username=shivanitakale10@gmail.com, RunMode=Y, Password=Fast@1104,
+				PasswordValid=Y, UsernameValid=Y, Browser=Firefox}</td>
+			<td><div>
+					<pre>org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
 Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
 System info: host: &apos;LAPTOP-7VMSTSG7&apos;, ip: &apos;192.168.43.226&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
@@ -101,8 +126,13 @@ Session ID: 87118282-3793-4e9a-b64c-9352c8801527
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1892657596", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1892657596'><pre>org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+... Removed 29 stack frames</pre>
+				</div>
+				<a href='#'
+				onClick='toggleBox("stack-trace1892657596", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+					to show all stack frames</a>
+				<div class='stack-trace' id='stack-trace1892657596'>
+					<pre>org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
 Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
 System info: host: &apos;LAPTOP-7VMSTSG7&apos;, ip: &apos;192.168.43.226&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
@@ -156,9 +186,12 @@ Session ID: 87118282-3793-4e9a-b64c-9352c8801527
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-</pre></div></td>
-<td>27</td>
-<td>com.zoho.suite.testcases.login.LoginTest@6c6cb480</td></tr>
-</table><p>
+</pre>
+				</div></td>
+			<td>27</td>
+			<td>com.zoho.suite.testcases.login.LoginTest@6c6cb480</td>
+		</tr>
+	</table>
+	<p>
 </body>
 </html>

@@ -1,12 +1,17 @@
 <html>
 <head>
-<title>TestNG:  Default test</title>
+<title>TestNG: Default test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
 <style type="text/css">
-.log { display: none;} 
-.stack-trace { display: none;} 
+.log {
+	display: none;
+}
+
+.stack-trace {
+	display: none;
+}
 </style>
 <script type="text/javascript">
 <!--
@@ -53,30 +58,50 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Default test</h2><table border='1' align="center">
-<tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
-</tr><tr>
-<td>Started on:</td><td>Sun Jun 14 11:29:59 IST 2020</td>
-</tr>
-<tr><td>Total time:</td><td>33 seconds (33554 ms)</td>
-</tr><tr>
-<td>Included groups:</td><td></td>
-</tr><tr>
-<td>Excluded groups:</td><td></td>
-</tr>
-</table><p/>
-<small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.zoho.suite.testcases.login.LoginTest.loginTest()'><b>loginTest</b><br>Test class: com.zoho.suite.testcases.login.LoginTest<br>Parameters: {Username=shivanitakale10@gmail.com, RunMode=Y, Password=Fast@1104, PasswordValid=Y, UsernameValid=Y, Browser=Firefox}</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+	<h2 align='center'>Default test</h2>
+	<table border='1' align="center">
+		<tr>
+			<td>Tests passed/Failed/Skipped:</td>
+			<td>0/1/0</td>
+		</tr>
+		<tr>
+			<td>Started on:</td>
+			<td>Sun Jun 14 11:29:59 IST 2020</td>
+		</tr>
+		<tr>
+			<td>Total time:</td>
+			<td>33 seconds (33554 ms)</td>
+		</tr>
+		<tr>
+			<td>Included groups:</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Excluded groups:</td>
+			<td></td>
+		</tr>
+	</table>
+	<p />
+	<small><i>(Hover the method name to see the test class
+			name)</i></small>
+	<p />
+	<table width='100%' border='1' class='invocation-failed'>
+		<tr>
+			<td colspan='4' align='center'><b>FAILED TESTS</b></td>
+		</tr>
+		<tr>
+			<td><b>Test method</b></td>
+			<td width="30%"><b>Exception</b></td>
+			<td width="10%"><b>Time (seconds)</b></td>
+			<td><b>Instance</b></td>
+		</tr>
+		<tr>
+			<td title='com.zoho.suite.testcases.login.LoginTest.loginTest()'><b>loginTest</b><br>Test
+				class: com.zoho.suite.testcases.login.LoginTest<br>Parameters:
+				{Username=shivanitakale10@gmail.com, RunMode=Y, Password=Fast@1104,
+				PasswordValid=Y, UsernameValid=Y, Browser=Firefox}</td>
+			<td><div>
+					<pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
 Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
 System info: host: &apos;LAPTOP-7VMSTSG7&apos;, ip: &apos;192.168.43.226&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
@@ -134,8 +159,13 @@ Session ID: ff7c8d4d-e036-49b1-9e70-1a922f3cff44
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace910504711", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace910504711'><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+</pre>
+				</div>
+				<a href='#'
+				onClick='toggleBox("stack-trace910504711", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+					to show all stack frames</a>
+				<div class='stack-trace' id='stack-trace910504711'>
+					<pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
 Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
 System info: host: &apos;LAPTOP-7VMSTSG7&apos;, ip: &apos;192.168.43.226&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
@@ -193,9 +223,12 @@ Session ID: ff7c8d4d-e036-49b1-9e70-1a922f3cff44
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>33</td>
-<td>com.zoho.suite.testcases.login.LoginTest@198b6731</td></tr>
-</table><p>
+</pre>
+				</div></td>
+			<td>33</td>
+			<td>com.zoho.suite.testcases.login.LoginTest@198b6731</td>
+		</tr>
+	</table>
+	<p>
 </body>
 </html>

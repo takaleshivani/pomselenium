@@ -1,33 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
-  <reporter-output>
-  </reporter-output>
-  <suite name="LoginSuite" duration-ms="570" started-at="2020-06-14T11:24:43 IST" finished-at="2020-06-14T11:24:44 IST">
-    <groups>
-    </groups>
-    <test name="Login Test" duration-ms="570" started-at="2020-06-14T11:24:43 IST" finished-at="2020-06-14T11:24:44 IST">
-      <class name="com.zoho.suite.testcases.login.LoginTest">
-        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@6c6cb480]" name="init" is-config="true" duration-ms="169" started-at="2020-06-14T11:24:43 IST" finished-at="2020-06-14T11:24:43 IST">
-          <params>
-            <param index="0">
-              <value>
+<testng-results skipped="0" failed="2" ignored="0"
+	total="3" passed="1">
+	<reporter-output>
+	</reporter-output>
+	<suite name="LoginSuite" duration-ms="570"
+		started-at="2020-06-14T11:24:43 IST"
+		finished-at="2020-06-14T11:24:44 IST">
+		<groups>
+		</groups>
+		<test name="Login Test" duration-ms="570"
+			started-at="2020-06-14T11:24:43 IST"
+			finished-at="2020-06-14T11:24:44 IST">
+			<class name="com.zoho.suite.testcases.login.LoginTest">
+				<test-method status="PASS"
+					signature="init(org.testng.ITestResult)[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@6c6cb480]"
+					name="init" is-config="true" duration-ms="169"
+					started-at="2020-06-14T11:24:43 IST"
+					finished-at="2020-06-14T11:24:43 IST">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@6c6cb480] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="FAIL" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@6c6cb480]" name="loginTest" duration-ms="16" started-at="2020-06-14T11:24:43 IST" data-provider="getData" finished-at="2020-06-14T11:24:43 IST">
-          <params>
-            <param index="0">
-              <value>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- init -->
+				<test-method status="FAIL"
+					signature="loginTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@6c6cb480]"
+					name="loginTest" duration-ms="16"
+					started-at="2020-06-14T11:24:43 IST" data-provider="getData"
+					finished-at="2020-06-14T11:24:43 IST">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{Username=shivanitakale10@gmail.com, RunMode=Y, Password=Fast@1104, PasswordValid=Y, UsernameValid=Y, Browser=Firefox}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
+							</value>
+						</param>
+					</params>
+					<exception class="java.lang.NullPointerException">
+						<full-stacktrace>
               <![CDATA[java.lang.NullPointerException
 at com.zoho.web.ZohoDriver.navigate(ZohoDriver.java:81)
 at com.zoho.base.normalpage.LaunchPage.gotoHomePage(LaunchPage.java:26)
@@ -58,74 +71,104 @@ at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:114
 at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 at java.lang.Thread.run(Thread.java:745)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@6c6cb480]" name="quit" is-config="true" duration-ms="285" started-at="2020-06-14T11:24:43 IST" finished-at="2020-06-14T11:24:44 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- com.zoho.suite.testcases.login.LoginTest -->
-    </test> <!-- Login Test -->
-  </suite> <!-- LoginSuite -->
-  <suite name="CreationSuite" duration-ms="617" started-at="2020-06-14T11:24:43 IST" finished-at="2020-06-14T11:24:44 IST">
-    <groups>
-    </groups>
-    <test name="Delete Lead" duration-ms="532" started-at="2020-06-14T11:24:43 IST" finished-at="2020-06-14T11:24:44 IST">
-      <class name="com.zoho.suite.testcases.creation.CreateTask">
-        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:com.zoho.suite.testcases.creation.CreateTask@76505305]" name="init" is-config="true" duration-ms="169" started-at="2020-06-14T11:24:43 IST" finished-at="2020-06-14T11:24:43 IST">
-          <params>
-            <param index="0">
-              <value>
+						</full-stacktrace>
+					</exception> <!-- java.lang.NullPointerException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- loginTest -->
+				<test-method status="PASS"
+					signature="quit()[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@6c6cb480]"
+					name="quit" is-config="true" duration-ms="285"
+					started-at="2020-06-14T11:24:43 IST"
+					finished-at="2020-06-14T11:24:44 IST">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- quit -->
+			</class> <!-- com.zoho.suite.testcases.login.LoginTest -->
+		</test> <!-- Login Test -->
+	</suite> <!-- LoginSuite -->
+	<suite name="CreationSuite" duration-ms="617"
+		started-at="2020-06-14T11:24:43 IST"
+		finished-at="2020-06-14T11:24:44 IST">
+		<groups>
+		</groups>
+		<test name="Delete Lead" duration-ms="532"
+			started-at="2020-06-14T11:24:43 IST"
+			finished-at="2020-06-14T11:24:44 IST">
+			<class name="com.zoho.suite.testcases.creation.CreateTask">
+				<test-method status="PASS"
+					signature="init(org.testng.ITestResult)[pri:0, instance:com.zoho.suite.testcases.creation.CreateTask@76505305]"
+					name="init" is-config="true" duration-ms="169"
+					started-at="2020-06-14T11:24:43 IST"
+					finished-at="2020-06-14T11:24:43 IST">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[[TestResult name={null} status=CREATED method=CreateTask.createLeadTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.creation.CreateTask@76505305] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="createLeadTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.creation.CreateTask@76505305]" name="createLeadTest" duration-ms="0" started-at="2020-06-14T11:24:43 IST" data-provider="getData" finished-at="2020-06-14T11:24:43 IST">
-          <params>
-            <param index="0">
-              <value>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- init -->
+				<test-method status="PASS"
+					signature="createLeadTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.creation.CreateTask@76505305]"
+					name="createLeadTest" duration-ms="0"
+					started-at="2020-06-14T11:24:43 IST" data-provider="getData"
+					finished-at="2020-06-14T11:24:43 IST">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{RunMode=Y, Lead_Company=Shelby Pvt, Lead_Name=Thomas Shelby, Browser=Firefox}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createLeadTest -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.zoho.suite.testcases.creation.CreateTask@76505305]" name="quit" is-config="true" duration-ms="232" started-at="2020-06-14T11:24:43 IST" finished-at="2020-06-14T11:24:44 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- com.zoho.suite.testcases.creation.CreateTask -->
-    </test> <!-- Delete Lead -->
-    <test name="CreateLead" duration-ms="617" started-at="2020-06-14T11:24:43 IST" finished-at="2020-06-14T11:24:44 IST">
-      <class name="com.zoho.suite.testcases.creation.CreateLeadTest">
-        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:com.zoho.suite.testcases.creation.CreateLeadTest@49139829]" name="init" is-config="true" duration-ms="169" started-at="2020-06-14T11:24:43 IST" finished-at="2020-06-14T11:24:43 IST">
-          <params>
-            <param index="0">
-              <value>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- createLeadTest -->
+				<test-method status="PASS"
+					signature="quit()[pri:0, instance:com.zoho.suite.testcases.creation.CreateTask@76505305]"
+					name="quit" is-config="true" duration-ms="232"
+					started-at="2020-06-14T11:24:43 IST"
+					finished-at="2020-06-14T11:24:44 IST">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- quit -->
+			</class> <!-- com.zoho.suite.testcases.creation.CreateTask -->
+		</test> <!-- Delete Lead -->
+		<test name="CreateLead" duration-ms="617"
+			started-at="2020-06-14T11:24:43 IST"
+			finished-at="2020-06-14T11:24:44 IST">
+			<class name="com.zoho.suite.testcases.creation.CreateLeadTest">
+				<test-method status="PASS"
+					signature="init(org.testng.ITestResult)[pri:0, instance:com.zoho.suite.testcases.creation.CreateLeadTest@49139829]"
+					name="init" is-config="true" duration-ms="169"
+					started-at="2020-06-14T11:24:43 IST"
+					finished-at="2020-06-14T11:24:43 IST">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[[TestResult name={null} status=CREATED method=CreateLeadTest.CreateTaskTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.creation.CreateLeadTest@49139829] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="FAIL" signature="CreateTaskTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.creation.CreateLeadTest@49139829]" name="CreateTaskTest" duration-ms="16" started-at="2020-06-14T11:24:43 IST" data-provider="getData" finished-at="2020-06-14T11:24:43 IST">
-          <params>
-            <param index="0">
-              <value>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- init -->
+				<test-method status="FAIL"
+					signature="CreateTaskTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.creation.CreateLeadTest@49139829]"
+					name="CreateTaskTest" duration-ms="16"
+					started-at="2020-06-14T11:24:43 IST" data-provider="getData"
+					finished-at="2020-06-14T11:24:43 IST">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{RunMode=Y, Task_Name=Thomas Shelby, Browser=Firefox}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
+							</value>
+						</param>
+					</params>
+					<exception class="java.lang.NullPointerException">
+						<full-stacktrace>
               <![CDATA[java.lang.NullPointerException
 at com.zoho.web.ZohoDriver.navigate(ZohoDriver.java:81)
 at com.zoho.base.normalpage.LaunchPage.gotoHomePage(LaunchPage.java:26)
@@ -156,16 +199,20 @@ at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:114
 at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 at java.lang.Thread.run(Thread.java:745)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateTaskTest -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.zoho.suite.testcases.creation.CreateLeadTest@49139829]" name="quit" is-config="true" duration-ms="332" started-at="2020-06-14T11:24:43 IST" finished-at="2020-06-14T11:24:44 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- com.zoho.suite.testcases.creation.CreateLeadTest -->
-    </test> <!-- CreateLead -->
-  </suite> <!-- CreationSuite -->
+						</full-stacktrace>
+					</exception> <!-- java.lang.NullPointerException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- CreateTaskTest -->
+				<test-method status="PASS"
+					signature="quit()[pri:0, instance:com.zoho.suite.testcases.creation.CreateLeadTest@49139829]"
+					name="quit" is-config="true" duration-ms="332"
+					started-at="2020-06-14T11:24:43 IST"
+					finished-at="2020-06-14T11:24:44 IST">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- quit -->
+			</class> <!-- com.zoho.suite.testcases.creation.CreateLeadTest -->
+		</test> <!-- CreateLead -->
+	</suite> <!-- CreationSuite -->
 </testng-results>

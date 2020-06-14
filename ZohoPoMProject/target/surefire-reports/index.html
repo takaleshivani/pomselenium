@@ -1,293 +1,329 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-  <meta charset='utf-8'>
-  <title>TestNG reports</title>
+<head>
+<meta charset='utf-8'>
+<title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
-    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="testng-reports.js"></script>
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-    <script type='text/javascript'>
+<link type="text/css" href="testng-reports.css" rel="stylesheet" />
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="testng-reports.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type='text/javascript'>
       google.load('visualization', '1', {packages:['table']});
       google.setOnLoadCallback(drawTable);
       var suiteTableInitFunctions = new Array();
       var suiteTableData = new Array();
     </script>
-    <!--
+<!--
       <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
      -->
-  </head>
+</head>
 
-  <body>
-    <div class="top-banner-root">
-      <span class="top-banner-title-font">Test results</span>
-      <br/>
-      <span class="top-banner-font-1">2 suites, 2 failed tests</span>
-    </div> <!-- top-banner-root -->
-    <div class="navigator-root">
-      <div class="navigator-suite-header">
-        <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
-          </img> <!-- collapse-all-icon -->
-        </a> <!-- collapse-all-link -->
-      </div> <!-- navigator-suite-header -->
-      <div class="suite">
-        <div class="rounded-window">
-          <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-LoginSuite">
-              <span class="suite-name border-failed">LoginSuite</span>
-            </a> <!-- navigator-link -->
-          </div> <!-- suite-header light-rounded-window-top -->
-          <div class="navigator-suite-content">
-            <div class="suite-section-title">
-              <span>Info</span>
-            </div> <!-- suite-section-title -->
-            <div class="suite-section-content">
-              <ul>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-LoginSuite">
-                    <span>C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\test\resources\login.xml</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-LoginSuite">
-                    <span class="test-stats">1 test</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="group-LoginSuite">
-                    <span>0 groups</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="times-LoginSuite">
-                    <span>Times</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-LoginSuite">
-                    <span>Reporter output</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-LoginSuite">
-                    <span>Ignored methods</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-LoginSuite">
-                    <span>Chronological view</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-              </ul>
-            </div> <!-- suite-section-content -->
-            <div class="result-section">
-              <div class="suite-section-title">
-                <span>Results</span>
-              </div> <!-- suite-section-title -->
-              <div class="suite-section-content">
-                <ul>
-                  <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-LoginSuite" class="hide-methods failed suite-LoginSuite"> (hide)</a> <!-- hide-methods failed suite-LoginSuite -->
-                      <a href="#" panel-name="suite-LoginSuite" class="show-methods failed suite-LoginSuite"> (show)</a> <!-- show-methods failed suite-LoginSuite -->
-                    </span>
-                    <div class="method-list-content failed suite-LoginSuite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="com.zoho.suite.testcases.login.LoginTest" hash-for-method="loginTest({Username=shivanitakale10@gmail.com, RunMode=Y, Password=Fast@1104, PasswordValid=Y, UsernameValid=Y...)">loginTest({Username=shivanitakale10@gmail.com, RunMode=Y, Password=Fast@1104, PasswordValid=Y, UsernameValid=Y...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-LoginSuite -->
-                  </li>
-                </ul>
-              </div> <!-- suite-section-content -->
-            </div> <!-- result-section -->
-          </div> <!-- navigator-suite-content -->
-        </div> <!-- rounded-window -->
-      </div> <!-- suite -->
-      <div class="suite">
-        <div class="rounded-window">
-          <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-CreationSuite">
-              <span class="suite-name border-failed">CreationSuite</span>
-            </a> <!-- navigator-link -->
-          </div> <!-- suite-header light-rounded-window-top -->
-          <div class="navigator-suite-content">
-            <div class="suite-section-title">
-              <span>Info</span>
-            </div> <!-- suite-section-title -->
-            <div class="suite-section-content">
-              <ul>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-CreationSuite">
-                    <span>C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\test\resources\creation.xml</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-CreationSuite">
-                    <span class="test-stats">2 tests</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="group-CreationSuite">
-                    <span>0 groups</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="times-CreationSuite">
-                    <span>Times</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-CreationSuite">
-                    <span>Reporter output</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-CreationSuite">
-                    <span>Ignored methods</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-CreationSuite">
-                    <span>Chronological view</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-              </ul>
-            </div> <!-- suite-section-content -->
-            <div class="result-section">
-              <div class="suite-section-title">
-                <span>Results</span>
-              </div> <!-- suite-section-title -->
-              <div class="suite-section-content">
-                <ul>
-                  <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-CreationSuite" class="hide-methods failed suite-CreationSuite"> (hide)</a> <!-- hide-methods failed suite-CreationSuite -->
-                      <a href="#" panel-name="suite-CreationSuite" class="show-methods failed suite-CreationSuite"> (show)</a> <!-- show-methods failed suite-CreationSuite -->
-                    </span>
-                    <div class="method-list-content failed suite-CreationSuite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CreationSuite" title="com.zoho.suite.testcases.creation.CreateLeadTest" hash-for-method="CreateTaskTest({RunMode=Y, Task_Name=Thomas Shelby, Browser=Firefox})">CreateTaskTest({RunMode=Y, Task_Name=Thomas Shelby, Browser=Firefox})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-CreationSuite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-CreationSuite" class="hide-methods passed suite-CreationSuite"> (hide)</a> <!-- hide-methods passed suite-CreationSuite -->
-                      <a href="#" panel-name="suite-CreationSuite" class="show-methods passed suite-CreationSuite"> (show)</a> <!-- show-methods passed suite-CreationSuite -->
-                    </span>
-                    <div class="method-list-content passed suite-CreationSuite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CreationSuite" title="com.zoho.suite.testcases.creation.CreateTask" hash-for-method="createLeadTest({RunMode=Y, Lead_Company=Shelby Pvt, Lead_Name=Thomas Shelby, Browser=Firefox})">createLeadTest({RunMode=Y, Lead_Company=Shelby Pvt, Lead_Name=Thomas Shelby, Browser=Firefox})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-CreationSuite -->
-                  </li>
-                </ul>
-              </div> <!-- suite-section-content -->
-            </div> <!-- result-section -->
-          </div> <!-- navigator-suite-content -->
-        </div> <!-- rounded-window -->
-      </div> <!-- suite -->
-    </div> <!-- navigator-root -->
-    <div class="wrapper">
-      <div class="main-panel-root">
-        <div panel-name="suite-LoginSuite" class="panel LoginSuite">
-          <div class="suite-LoginSuite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.zoho.suite.testcases.login.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginTest({Username=shivanitakale10@gmail.com, RunMode=Y, Password=Fast@1104, PasswordValid=Y, UsernameValid=Y...)">
-                  </a> <!-- loginTest({Username=shivanitakale10@gmail.com, RunMode=Y, Password=Fast@1104, PasswordValid=Y, UsernameValid=Y...) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">({Username=shivanitakale10@gmail.com, RunMode=Y, Password=Fast@1104, PasswordValid=Y, UsernameValid=Y, Browser=Firefox})</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at com.zoho.web.ZohoDriver.navigate(ZohoDriver.java:81)
-	at com.zoho.base.normalpage.LaunchPage.gotoHomePage(LaunchPage.java:26)
-	at com.zoho.suite.testcases.login.LoginTest.loginTest(LoginTest.java:66)
-	at java.util.ArrayList.forEach(ArrayList.java:1249)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-... Removed 21 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-LoginSuite-class-failed -->
-        </div> <!-- panel LoginSuite -->
-        <div panel-name="suite-CreationSuite" class="panel CreationSuite">
-          <div class="suite-CreationSuite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.zoho.suite.testcases.creation.CreateLeadTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="CreateTaskTest({RunMode=Y, Task_Name=Thomas Shelby, Browser=Firefox})">
-                  </a> <!-- CreateTaskTest({RunMode=Y, Task_Name=Thomas Shelby, Browser=Firefox}) -->
-                  <span class="method-name">CreateTaskTest</span>
-                  <span class="parameters">({RunMode=Y, Task_Name=Thomas Shelby, Browser=Firefox})</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at com.zoho.web.ZohoDriver.navigate(ZohoDriver.java:81)
-	at com.zoho.base.normalpage.LaunchPage.gotoHomePage(LaunchPage.java:26)
-	at com.zoho.suite.testcases.creation.CreateLeadTest.CreateTaskTest(CreateLeadTest.java:52)
-	at java.util.ArrayList.forEach(ArrayList.java:1249)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-CreationSuite-class-failed -->
-          <div class="suite-CreationSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.zoho.suite.testcases.creation.CreateTask</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="createLeadTest({RunMode=Y, Lead_Company=Shelby Pvt, Lead_Name=Thomas Shelby, Browser=Firefox})">
-                  </a> <!-- createLeadTest({RunMode=Y, Lead_Company=Shelby Pvt, Lead_Name=Thomas Shelby, Browser=Firefox}) -->
-                  <span class="method-name">createLeadTest</span>
-                  <span class="parameters">({RunMode=Y, Lead_Company=Shelby Pvt, Lead_Name=Thomas Shelby, Browser=Firefox})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-CreationSuite-class-passed -->
-        </div> <!-- panel CreationSuite -->
-        <div panel-name="test-xml-LoginSuite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\test\resources\login.xml</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <pre>
+<body>
+	<div class="top-banner-root">
+		<span class="top-banner-title-font">Test results</span> <br /> <span
+			class="top-banner-font-1">2 suites, 2 failed tests</span>
+	</div>
+	<!-- top-banner-root -->
+	<div class="navigator-root">
+		<div class="navigator-suite-header">
+			<span>All suites</span> <a href="#" class="collapse-all-link"
+				title="Collapse/expand all the suites"> <img
+				class="collapse-all-icon" src="collapseall.gif"> </img> <!-- collapse-all-icon -->
+			</a>
+			<!-- collapse-all-link -->
+		</div>
+		<!-- navigator-suite-header -->
+		<div class="suite">
+			<div class="rounded-window">
+				<div class="suite-header light-rounded-window-top">
+					<a href="#" class="navigator-link" panel-name="suite-LoginSuite">
+						<span class="suite-name border-failed">LoginSuite</span>
+					</a>
+					<!-- navigator-link -->
+				</div>
+				<!-- suite-header light-rounded-window-top -->
+				<div class="navigator-suite-content">
+					<div class="suite-section-title">
+						<span>Info</span>
+					</div>
+					<!-- suite-section-title -->
+					<div class="suite-section-content">
+						<ul>
+							<li><a href="#" class="navigator-link "
+								panel-name="test-xml-LoginSuite"> <span>C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\test\resources\login.xml</span>
+							</a> <!-- navigator-link  --></li>
+							<li><a href="#" class="navigator-link "
+								panel-name="testlist-LoginSuite"> <span class="test-stats">1
+										test</span>
+							</a> <!-- navigator-link  --></li>
+							<li><a href="#" class="navigator-link "
+								panel-name="group-LoginSuite"> <span>0 groups</span>
+							</a> <!-- navigator-link  --></li>
+							<li><a href="#" class="navigator-link "
+								panel-name="times-LoginSuite"> <span>Times</span>
+							</a> <!-- navigator-link  --></li>
+							<li><a href="#" class="navigator-link "
+								panel-name="reporter-LoginSuite"> <span>Reporter
+										output</span>
+							</a> <!-- navigator-link  --></li>
+							<li><a href="#" class="navigator-link "
+								panel-name="ignored-methods-LoginSuite"> <span>Ignored
+										methods</span>
+							</a> <!-- navigator-link  --></li>
+							<li><a href="#" class="navigator-link "
+								panel-name="chronological-LoginSuite"> <span>Chronological
+										view</span>
+							</a> <!-- navigator-link  --></li>
+						</ul>
+					</div>
+					<!-- suite-section-content -->
+					<div class="result-section">
+						<div class="suite-section-title">
+							<span>Results</span>
+						</div>
+						<!-- suite-section-title -->
+						<div class="suite-section-content">
+							<ul>
+								<li><span class="method-stats">1 method, 1 failed, </span>
+								</li>
+								<li><span class="method-list-title failed">Failed
+										methods</span> <span class="show-or-hide-methods failed"> <a
+										href="#" panel-name="suite-LoginSuite"
+										class="hide-methods failed suite-LoginSuite"> (hide)</a> <!-- hide-methods failed suite-LoginSuite -->
+										<a href="#" panel-name="suite-LoginSuite"
+										class="show-methods failed suite-LoginSuite"> (show)</a> <!-- show-methods failed suite-LoginSuite -->
+								</span>
+									<div class="method-list-content failed suite-LoginSuite">
+										<span> <img width="3%" src="failed.png" /> <a href="#"
+											class="method navigator-link" panel-name="suite-LoginSuite"
+											title="com.zoho.suite.testcases.login.LoginTest"
+											hash-for-method="loginTest({Username=shivanitakale10@gmail.com, RunMode=Y, Password=Fast@1104, PasswordValid=Y, UsernameValid=Y...)">loginTest({Username=shivanitakale10@gmail.com,
+												RunMode=Y, Password=Fast@1104, PasswordValid=Y,
+												UsernameValid=Y...)</a> <!-- method navigator-link -->
+										</span> <br />
+									</div> <!-- method-list-content failed suite-LoginSuite --></li>
+							</ul>
+						</div>
+						<!-- suite-section-content -->
+					</div>
+					<!-- result-section -->
+				</div>
+				<!-- navigator-suite-content -->
+			</div>
+			<!-- rounded-window -->
+		</div>
+		<!-- suite -->
+		<div class="suite">
+			<div class="rounded-window">
+				<div class="suite-header light-rounded-window-top">
+					<a href="#" class="navigator-link" panel-name="suite-CreationSuite">
+						<span class="suite-name border-failed">CreationSuite</span>
+					</a>
+					<!-- navigator-link -->
+				</div>
+				<!-- suite-header light-rounded-window-top -->
+				<div class="navigator-suite-content">
+					<div class="suite-section-title">
+						<span>Info</span>
+					</div>
+					<!-- suite-section-title -->
+					<div class="suite-section-content">
+						<ul>
+							<li><a href="#" class="navigator-link "
+								panel-name="test-xml-CreationSuite"> <span>C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\test\resources\creation.xml</span>
+							</a> <!-- navigator-link  --></li>
+							<li><a href="#" class="navigator-link "
+								panel-name="testlist-CreationSuite"> <span
+									class="test-stats">2 tests</span>
+							</a> <!-- navigator-link  --></li>
+							<li><a href="#" class="navigator-link "
+								panel-name="group-CreationSuite"> <span>0 groups</span>
+							</a> <!-- navigator-link  --></li>
+							<li><a href="#" class="navigator-link "
+								panel-name="times-CreationSuite"> <span>Times</span>
+							</a> <!-- navigator-link  --></li>
+							<li><a href="#" class="navigator-link "
+								panel-name="reporter-CreationSuite"> <span>Reporter
+										output</span>
+							</a> <!-- navigator-link  --></li>
+							<li><a href="#" class="navigator-link "
+								panel-name="ignored-methods-CreationSuite"> <span>Ignored
+										methods</span>
+							</a> <!-- navigator-link  --></li>
+							<li><a href="#" class="navigator-link "
+								panel-name="chronological-CreationSuite"> <span>Chronological
+										view</span>
+							</a> <!-- navigator-link  --></li>
+						</ul>
+					</div>
+					<!-- suite-section-content -->
+					<div class="result-section">
+						<div class="suite-section-title">
+							<span>Results</span>
+						</div>
+						<!-- suite-section-title -->
+						<div class="suite-section-content">
+							<ul>
+								<li><span class="method-stats">2 methods, 1 failed,
+										1 passed</span></li>
+								<li><span class="method-list-title failed">Failed
+										methods</span> <span class="show-or-hide-methods failed"> <a
+										href="#" panel-name="suite-CreationSuite"
+										class="hide-methods failed suite-CreationSuite"> (hide)</a> <!-- hide-methods failed suite-CreationSuite -->
+										<a href="#" panel-name="suite-CreationSuite"
+										class="show-methods failed suite-CreationSuite"> (show)</a> <!-- show-methods failed suite-CreationSuite -->
+								</span>
+									<div class="method-list-content failed suite-CreationSuite">
+										<span> <img width="3%" src="failed.png" /> <a href="#"
+											class="method navigator-link"
+											panel-name="suite-CreationSuite"
+											title="com.zoho.suite.testcases.creation.CreateLeadTest"
+											hash-for-method="CreateTaskTest({RunMode=Y, Task_Name=Thomas Shelby, Browser=Firefox})">CreateTaskTest({RunMode=Y,
+												Task_Name=Thomas Shelby, Browser=Firefox})</a> <!-- method navigator-link -->
+										</span> <br />
+									</div> <!-- method-list-content failed suite-CreationSuite --></li>
+								<li><span class="method-list-title passed">Passed
+										methods</span> <span class="show-or-hide-methods passed"> <a
+										href="#" panel-name="suite-CreationSuite"
+										class="hide-methods passed suite-CreationSuite"> (hide)</a> <!-- hide-methods passed suite-CreationSuite -->
+										<a href="#" panel-name="suite-CreationSuite"
+										class="show-methods passed suite-CreationSuite"> (show)</a> <!-- show-methods passed suite-CreationSuite -->
+								</span>
+									<div class="method-list-content passed suite-CreationSuite">
+										<span> <img width="3%" src="passed.png" /> <a href="#"
+											class="method navigator-link"
+											panel-name="suite-CreationSuite"
+											title="com.zoho.suite.testcases.creation.CreateTask"
+											hash-for-method="createLeadTest({RunMode=Y, Lead_Company=Shelby Pvt, Lead_Name=Thomas Shelby, Browser=Firefox})">createLeadTest({RunMode=Y,
+												Lead_Company=Shelby Pvt, Lead_Name=Thomas Shelby,
+												Browser=Firefox})</a> <!-- method navigator-link -->
+										</span> <br />
+									</div> <!-- method-list-content passed suite-CreationSuite --></li>
+							</ul>
+						</div>
+						<!-- suite-section-content -->
+					</div>
+					<!-- result-section -->
+				</div>
+				<!-- navigator-suite-content -->
+			</div>
+			<!-- rounded-window -->
+		</div>
+		<!-- suite -->
+	</div>
+	<!-- navigator-root -->
+	<div class="wrapper">
+		<div class="main-panel-root">
+			<div panel-name="suite-LoginSuite" class="panel LoginSuite">
+				<div class="suite-LoginSuite-class-failed">
+					<div class="main-panel-header rounded-window-top">
+						<img src="failed.png" /> <span class="class-name">com.zoho.suite.testcases.login.LoginTest</span>
+					</div>
+					<!-- main-panel-header rounded-window-top -->
+					<div class="main-panel-content rounded-window-bottom">
+						<div class="method">
+							<div class="method-content">
+								<a
+									name="loginTest({Username=shivanitakale10@gmail.com, RunMode=Y, Password=Fast@1104, PasswordValid=Y, UsernameValid=Y...)">
+								</a>
+								<!-- loginTest({Username=shivanitakale10@gmail.com, RunMode=Y, Password=Fast@1104, PasswordValid=Y, UsernameValid=Y...) -->
+								<span class="method-name">loginTest</span> <span
+									class="parameters">({Username=shivanitakale10@gmail.com,
+									RunMode=Y, Password=Fast@1104, PasswordValid=Y,
+									UsernameValid=Y, Browser=Firefox})</span>
+								<div class="stack-trace">java.lang.NullPointerException at
+									com.zoho.web.ZohoDriver.navigate(ZohoDriver.java:81) at
+									com.zoho.base.normalpage.LaunchPage.gotoHomePage(LaunchPage.java:26)
+									at
+									com.zoho.suite.testcases.login.LoginTest.loginTest(LoginTest.java:66)
+									at java.util.ArrayList.forEach(ArrayList.java:1249) at
+									java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+									at
+									java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+									at java.lang.Thread.run(Thread.java:745) ... Removed 21 stack
+									frames</div>
+								<!-- stack-trace -->
+							</div>
+							<!-- method-content -->
+						</div>
+						<!-- method -->
+					</div>
+					<!-- main-panel-content rounded-window-bottom -->
+				</div>
+				<!-- suite-LoginSuite-class-failed -->
+			</div>
+			<!-- panel LoginSuite -->
+			<div panel-name="suite-CreationSuite" class="panel CreationSuite">
+				<div class="suite-CreationSuite-class-failed">
+					<div class="main-panel-header rounded-window-top">
+						<img src="failed.png" /> <span class="class-name">com.zoho.suite.testcases.creation.CreateLeadTest</span>
+					</div>
+					<!-- main-panel-header rounded-window-top -->
+					<div class="main-panel-content rounded-window-bottom">
+						<div class="method">
+							<div class="method-content">
+								<a
+									name="CreateTaskTest({RunMode=Y, Task_Name=Thomas Shelby, Browser=Firefox})">
+								</a>
+								<!-- CreateTaskTest({RunMode=Y, Task_Name=Thomas Shelby, Browser=Firefox}) -->
+								<span class="method-name">CreateTaskTest</span> <span
+									class="parameters">({RunMode=Y, Task_Name=Thomas Shelby,
+									Browser=Firefox})</span>
+								<div class="stack-trace">java.lang.NullPointerException at
+									com.zoho.web.ZohoDriver.navigate(ZohoDriver.java:81) at
+									com.zoho.base.normalpage.LaunchPage.gotoHomePage(LaunchPage.java:26)
+									at
+									com.zoho.suite.testcases.creation.CreateLeadTest.CreateTaskTest(CreateLeadTest.java:52)
+									at java.util.ArrayList.forEach(ArrayList.java:1249) at
+									java.util.concurrent.FutureTask.run(FutureTask.java:266) at
+									java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+									at
+									java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+									at java.lang.Thread.run(Thread.java:745) ... Removed 20 stack
+									frames</div>
+								<!-- stack-trace -->
+							</div>
+							<!-- method-content -->
+						</div>
+						<!-- method -->
+					</div>
+					<!-- main-panel-content rounded-window-bottom -->
+				</div>
+				<!-- suite-CreationSuite-class-failed -->
+				<div class="suite-CreationSuite-class-passed">
+					<div class="main-panel-header rounded-window-top">
+						<img src="passed.png" /> <span class="class-name">com.zoho.suite.testcases.creation.CreateTask</span>
+					</div>
+					<!-- main-panel-header rounded-window-top -->
+					<div class="main-panel-content rounded-window-bottom">
+						<div class="method">
+							<div class="method-content">
+								<a
+									name="createLeadTest({RunMode=Y, Lead_Company=Shelby Pvt, Lead_Name=Thomas Shelby, Browser=Firefox})">
+								</a>
+								<!-- createLeadTest({RunMode=Y, Lead_Company=Shelby Pvt, Lead_Name=Thomas Shelby, Browser=Firefox}) -->
+								<span class="method-name">createLeadTest</span> <span
+									class="parameters">({RunMode=Y, Lead_Company=Shelby Pvt,
+									Lead_Name=Thomas Shelby, Browser=Firefox})</span>
+							</div>
+							<!-- method-content -->
+						</div>
+						<!-- method -->
+					</div>
+					<!-- main-panel-content rounded-window-bottom -->
+				</div>
+				<!-- suite-CreationSuite-class-passed -->
+			</div>
+			<!-- panel CreationSuite -->
+			<div panel-name="test-xml-LoginSuite" class="panel">
+				<div class="main-panel-header rounded-window-top">
+					<span class="header-content">C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\test\resources\login.xml</span>
+				</div>
+				<!-- main-panel-header rounded-window-top -->
+				<div class="main-panel-content rounded-window-bottom">
+					<pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;LoginSuite&quot;&gt;
@@ -298,14 +334,17 @@
   &lt;/test&gt; &lt;!-- Login Test --&gt;
 &lt;/suite&gt; &lt;!-- LoginSuite --&gt;
             </pre>
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="test-xml-CreationSuite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\test\resources\creation.xml</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <pre>
+				</div>
+				<!-- main-panel-content rounded-window-bottom -->
+			</div>
+			<!-- panel -->
+			<div panel-name="test-xml-CreationSuite" class="panel">
+				<div class="main-panel-header rounded-window-top">
+					<span class="header-content">C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\test\resources\creation.xml</span>
+				</div>
+				<!-- main-panel-header rounded-window-top -->
+				<div class="main-panel-content rounded-window-bottom">
+					<pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;CreationSuite&quot; parallel=&quot;tests&quot;&gt;
@@ -321,56 +360,63 @@
   &lt;/test&gt; &lt;!-- Delete Lead --&gt;
 &lt;/suite&gt; &lt;!-- CreationSuite --&gt;
             </pre>
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="testlist-LoginSuite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for LoginSuite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <ul>
-              <li>
-                <span class="test-name">Login Test (1 class)</span>
-              </li>
-            </ul>
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="testlist-CreationSuite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for CreationSuite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <ul>
-              <li>
-                <span class="test-name">CreateLead (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Delete Lead (1 class)</span>
-              </li>
-            </ul>
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="group-LoginSuite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for LoginSuite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="group-CreationSuite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for CreationSuite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="times-LoginSuite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for LoginSuite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <div class="times-div">
-              <script type="text/javascript">
+				</div>
+				<!-- main-panel-content rounded-window-bottom -->
+			</div>
+			<!-- panel -->
+			<div panel-name="testlist-LoginSuite" class="panel">
+				<div class="main-panel-header rounded-window-top">
+					<span class="header-content">Tests for LoginSuite</span>
+				</div>
+				<!-- main-panel-header rounded-window-top -->
+				<div class="main-panel-content rounded-window-bottom">
+					<ul>
+						<li><span class="test-name">Login Test (1 class)</span></li>
+					</ul>
+				</div>
+				<!-- main-panel-content rounded-window-bottom -->
+			</div>
+			<!-- panel -->
+			<div panel-name="testlist-CreationSuite" class="panel">
+				<div class="main-panel-header rounded-window-top">
+					<span class="header-content">Tests for CreationSuite</span>
+				</div>
+				<!-- main-panel-header rounded-window-top -->
+				<div class="main-panel-content rounded-window-bottom">
+					<ul>
+						<li><span class="test-name">CreateLead (1 class)</span></li>
+						<li><span class="test-name">Delete Lead (1 class)</span></li>
+					</ul>
+				</div>
+				<!-- main-panel-content rounded-window-bottom -->
+			</div>
+			<!-- panel -->
+			<div panel-name="group-LoginSuite" class="panel">
+				<div class="main-panel-header rounded-window-top">
+					<span class="header-content">Groups for LoginSuite</span>
+				</div>
+				<!-- main-panel-header rounded-window-top -->
+				<div class="main-panel-content rounded-window-bottom"></div>
+				<!-- main-panel-content rounded-window-bottom -->
+			</div>
+			<!-- panel -->
+			<div panel-name="group-CreationSuite" class="panel">
+				<div class="main-panel-header rounded-window-top">
+					<span class="header-content">Groups for CreationSuite</span>
+				</div>
+				<!-- main-panel-header rounded-window-top -->
+				<div class="main-panel-content rounded-window-bottom"></div>
+				<!-- main-panel-content rounded-window-bottom -->
+			</div>
+			<!-- panel -->
+			<div panel-name="times-LoginSuite" class="panel">
+				<div class="main-panel-header rounded-window-top">
+					<span class="header-content">Times for LoginSuite</span>
+				</div>
+				<!-- main-panel-header rounded-window-top -->
+				<div class="main-panel-content rounded-window-bottom">
+					<div class="times-div">
+						<script type="text/javascript">
 suiteTableInitFunctions.push('tableData_LoginSuite');
 function tableData_LoginSuite() {
 var data = new google.visualization.DataTable();
@@ -387,19 +433,23 @@ window.suiteTableData['LoginSuite']= { tableData: data, tableDiv: 'times-div-Log
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 ms</span>
-              <div id="times-div-LoginSuite">
-              </div> <!-- times-div-LoginSuite -->
-            </div> <!-- times-div -->
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="times-CreationSuite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for CreationSuite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <div class="times-div">
-              <script type="text/javascript">
+						<span class="suite-total-time">Total running time: 16 ms</span>
+						<div id="times-div-LoginSuite"></div>
+						<!-- times-div-LoginSuite -->
+					</div>
+					<!-- times-div -->
+				</div>
+				<!-- main-panel-content rounded-window-bottom -->
+			</div>
+			<!-- panel -->
+			<div panel-name="times-CreationSuite" class="panel">
+				<div class="main-panel-header rounded-window-top">
+					<span class="header-content">Times for CreationSuite</span>
+				</div>
+				<!-- main-panel-header rounded-window-top -->
+				<div class="main-panel-content rounded-window-bottom">
+					<div class="times-div">
+						<script type="text/javascript">
 suiteTableInitFunctions.push('tableData_CreationSuite');
 function tableData_CreationSuite() {
 var data = new google.visualization.DataTable();
@@ -420,111 +470,155 @@ window.suiteTableData['CreationSuite']= { tableData: data, tableDiv: 'times-div-
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 617 ms</span>
-              <div id="times-div-CreationSuite">
-              </div> <!-- times-div-CreationSuite -->
-            </div> <!-- times-div -->
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="reporter-LoginSuite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for LoginSuite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="reporter-CreationSuite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for CreationSuite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="ignored-methods-LoginSuite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="ignored-methods-CreationSuite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="chronological-LoginSuite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Methods in chronological order</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.zoho.suite.testcases.login.LoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">init([TestResult name={null} status=CREATED method=LoginTest.loginTest(java.util.Hashtable)[pri:0, instan...)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginTest({Username=shivanitakale10@gmail.com, RunMode=Y, Password=Fast@1104, PasswordValid=Y, UsernameValid=Y...)</span>
-                <span class="method-start">169 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">185 ms</span>
-              </div> <!-- configuration-method after -->
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="chronological-CreationSuite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Methods in chronological order</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.zoho.suite.testcases.creation.CreateLeadTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">init([TestResult name={null} status=CREATED method=CreateLeadTest.CreateTaskTest(java.util.Hashtable)[pri...)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.zoho.suite.testcases.creation.CreateTask</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">init([TestResult name={null} status=CREATED method=CreateTask.createLeadTest(java.util.Hashtable)[pri:0, ...)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.zoho.suite.testcases.creation.CreateLeadTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">CreateTaskTest({RunMode=Y, Task_Name=Thomas Shelby, Browser=Firefox})</span>
-                <span class="method-start">169 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.zoho.suite.testcases.creation.CreateTask</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">createLeadTest({RunMode=Y, Lead_Company=Shelby Pvt, Lead_Name=Thomas Shelby, Browser=Firefox})</span>
-                <span class="method-start">169 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">185 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.zoho.suite.testcases.creation.CreateLeadTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">185 ms</span>
-              </div> <!-- configuration-method after -->
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-      </div> <!-- main-panel-root -->
-    </div> <!-- wrapper -->
-  </body>
+						<span class="suite-total-time">Total running time: 617 ms</span>
+						<div id="times-div-CreationSuite"></div>
+						<!-- times-div-CreationSuite -->
+					</div>
+					<!-- times-div -->
+				</div>
+				<!-- main-panel-content rounded-window-bottom -->
+			</div>
+			<!-- panel -->
+			<div panel-name="reporter-LoginSuite" class="panel">
+				<div class="main-panel-header rounded-window-top">
+					<span class="header-content">Reporter output for LoginSuite</span>
+				</div>
+				<!-- main-panel-header rounded-window-top -->
+				<div class="main-panel-content rounded-window-bottom"></div>
+				<!-- main-panel-content rounded-window-bottom -->
+			</div>
+			<!-- panel -->
+			<div panel-name="reporter-CreationSuite" class="panel">
+				<div class="main-panel-header rounded-window-top">
+					<span class="header-content">Reporter output for
+						CreationSuite</span>
+				</div>
+				<!-- main-panel-header rounded-window-top -->
+				<div class="main-panel-content rounded-window-bottom"></div>
+				<!-- main-panel-content rounded-window-bottom -->
+			</div>
+			<!-- panel -->
+			<div panel-name="ignored-methods-LoginSuite" class="panel">
+				<div class="main-panel-header rounded-window-top">
+					<span class="header-content">0 ignored methods</span>
+				</div>
+				<!-- main-panel-header rounded-window-top -->
+				<div class="main-panel-content rounded-window-bottom"></div>
+				<!-- main-panel-content rounded-window-bottom -->
+			</div>
+			<!-- panel -->
+			<div panel-name="ignored-methods-CreationSuite" class="panel">
+				<div class="main-panel-header rounded-window-top">
+					<span class="header-content">0 ignored methods</span>
+				</div>
+				<!-- main-panel-header rounded-window-top -->
+				<div class="main-panel-content rounded-window-bottom"></div>
+				<!-- main-panel-content rounded-window-bottom -->
+			</div>
+			<!-- panel -->
+			<div panel-name="chronological-LoginSuite" class="panel">
+				<div class="main-panel-header rounded-window-top">
+					<span class="header-content">Methods in chronological order</span>
+				</div>
+				<!-- main-panel-header rounded-window-top -->
+				<div class="main-panel-content rounded-window-bottom">
+					<div class="chronological-class">
+						<div class="chronological-class-name">com.zoho.suite.testcases.login.LoginTest</div>
+						<!-- chronological-class-name -->
+						<div class="configuration-method before">
+							<span class="method-name">init([TestResult name={null}
+								status=CREATED
+								method=LoginTest.loginTest(java.util.Hashtable)[pri:0,
+								instan...)</span> <span class="method-start">0 ms</span>
+						</div>
+						<!-- configuration-method before -->
+						<div class="test-method">
+							<img src="failed.png"> </img> <span class="method-name">loginTest({Username=shivanitakale10@gmail.com,
+								RunMode=Y, Password=Fast@1104, PasswordValid=Y,
+								UsernameValid=Y...)</span> <span class="method-start">169 ms</span>
+						</div>
+						<!-- test-method -->
+						<div class="configuration-method after">
+							<span class="method-name">quit</span> <span class="method-start">185
+								ms</span>
+						</div>
+						<!-- configuration-method after -->
+					</div>
+					<!-- main-panel-content rounded-window-bottom -->
+				</div>
+				<!-- panel -->
+				<div panel-name="chronological-CreationSuite" class="panel">
+					<div class="main-panel-header rounded-window-top">
+						<span class="header-content">Methods in chronological order</span>
+					</div>
+					<!-- main-panel-header rounded-window-top -->
+					<div class="main-panel-content rounded-window-bottom">
+						<div class="chronological-class">
+							<div class="chronological-class-name">com.zoho.suite.testcases.creation.CreateLeadTest</div>
+							<!-- chronological-class-name -->
+							<div class="configuration-method before">
+								<span class="method-name">init([TestResult name={null}
+									status=CREATED
+									method=CreateLeadTest.CreateTaskTest(java.util.Hashtable)[pri...)</span>
+								<span class="method-start">0 ms</span>
+							</div>
+							<!-- configuration-method before -->
+						</div>
+						<!-- chronological-class -->
+						<div class="chronological-class">
+							<div class="chronological-class-name">com.zoho.suite.testcases.creation.CreateTask</div>
+							<!-- chronological-class-name -->
+							<div class="configuration-method before">
+								<span class="method-name">init([TestResult name={null}
+									status=CREATED
+									method=CreateTask.createLeadTest(java.util.Hashtable)[pri:0,
+									...)</span> <span class="method-start">0 ms</span>
+							</div>
+							<!-- configuration-method before -->
+						</div>
+						<!-- chronological-class -->
+						<div class="chronological-class">
+							<div class="chronological-class-name">com.zoho.suite.testcases.creation.CreateLeadTest</div>
+							<!-- chronological-class-name -->
+							<div class="test-method">
+								<img src="failed.png"> </img> <span class="method-name">CreateTaskTest({RunMode=Y,
+									Task_Name=Thomas Shelby, Browser=Firefox})</span> <span
+									class="method-start">169 ms</span>
+							</div>
+							<!-- test-method -->
+						</div>
+						<!-- chronological-class -->
+						<div class="chronological-class">
+							<div class="chronological-class-name">com.zoho.suite.testcases.creation.CreateTask</div>
+							<!-- chronological-class-name -->
+							<div class="test-method">
+								<span class="method-name">createLeadTest({RunMode=Y,
+									Lead_Company=Shelby Pvt, Lead_Name=Thomas Shelby,
+									Browser=Firefox})</span> <span class="method-start">169 ms</span>
+							</div>
+							<!-- test-method -->
+							<div class="configuration-method after">
+								<span class="method-name">quit</span> <span class="method-start">185
+									ms</span>
+							</div>
+							<!-- configuration-method after -->
+						</div>
+						<!-- chronological-class -->
+						<div class="chronological-class">
+							<div class="chronological-class-name">com.zoho.suite.testcases.creation.CreateLeadTest</div>
+							<!-- chronological-class-name -->
+							<div class="configuration-method after">
+								<span class="method-name">quit</span> <span class="method-start">185
+									ms</span>
+							</div>
+							<!-- configuration-method after -->
+						</div>
+						<!-- main-panel-content rounded-window-bottom -->
+					</div>
+					<!-- panel -->
+				</div>
+				<!-- main-panel-root -->
+			</div>
+			<!-- wrapper -->
+</body>
 </html>

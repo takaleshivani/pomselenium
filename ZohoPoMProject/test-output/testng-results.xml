@@ -1,41 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Default suite" duration-ms="33554" started-at="2020-06-14T11:29:59 IST" finished-at="2020-06-14T11:30:33 IST">
-    <groups>
-    </groups>
-    <test name="Default test" duration-ms="33554" started-at="2020-06-14T11:29:59 IST" finished-at="2020-06-14T11:30:33 IST">
-      <class name="com.zoho.suite.testcases.login.LoginTest">
-        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@198b6731]" name="init" is-config="true" duration-ms="163" started-at="2020-06-14T11:29:59 IST" finished-at="2020-06-14T11:29:59 IST">
-          <params>
-            <param index="0">
-              <value>
+<testng-results skipped="0" failed="1" ignored="0"
+	total="1" passed="0">
+	<reporter-output>
+	</reporter-output>
+	<suite name="Default suite" duration-ms="33554"
+		started-at="2020-06-14T11:29:59 IST"
+		finished-at="2020-06-14T11:30:33 IST">
+		<groups>
+		</groups>
+		<test name="Default test" duration-ms="33554"
+			started-at="2020-06-14T11:29:59 IST"
+			finished-at="2020-06-14T11:30:33 IST">
+			<class name="com.zoho.suite.testcases.login.LoginTest">
+				<test-method status="PASS"
+					signature="init(org.testng.ITestResult)[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@198b6731]"
+					name="init" is-config="true" duration-ms="163"
+					started-at="2020-06-14T11:29:59 IST"
+					finished-at="2020-06-14T11:29:59 IST">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@198b6731] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="FAIL" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@198b6731]" name="loginTest" duration-ms="33035" started-at="2020-06-14T11:29:59 IST" data-provider="getData" finished-at="2020-06-14T11:30:32 IST">
-          <params>
-            <param index="0">
-              <value>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- init -->
+				<test-method status="FAIL"
+					signature="loginTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@198b6731]"
+					name="loginTest" duration-ms="33035"
+					started-at="2020-06-14T11:29:59 IST" data-provider="getData"
+					finished-at="2020-06-14T11:30:32 IST">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{Username=shivanitakale10@gmail.com, RunMode=Y, Password=Fast@1104, PasswordValid=Y, UsernameValid=Y, Browser=Firefox}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
+							</value>
+						</param>
+					</params>
+					<exception class="org.openqa.selenium.WebDriverException">
+						<message>
               <![CDATA[Failed to decode response from marionette
 Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
 System info: host: 'LAPTOP-7VMSTSG7', ip: '192.168.43.226', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 20864, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
 Session ID: ff7c8d4d-e036-49b1-9e70-1a922f3cff44]]>
-            </message>
-            <full-stacktrace>
+						</message>
+						<full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
 Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
 System info: host: 'LAPTOP-7VMSTSG7', ip: '192.168.43.226', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
@@ -95,16 +108,20 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@198b6731]" name="quit" is-config="true" duration-ms="272" started-at="2020-06-14T11:30:32 IST" finished-at="2020-06-14T11:30:33 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- com.zoho.suite.testcases.login.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+						</full-stacktrace>
+					</exception> <!-- org.openqa.selenium.WebDriverException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- loginTest -->
+				<test-method status="PASS"
+					signature="quit()[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@198b6731]"
+					name="quit" is-config="true" duration-ms="272"
+					started-at="2020-06-14T11:30:32 IST"
+					finished-at="2020-06-14T11:30:33 IST">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- quit -->
+			</class> <!-- com.zoho.suite.testcases.login.LoginTest -->
+		</test> <!-- Default test -->
+	</suite> <!-- Default suite -->
 </testng-results>
