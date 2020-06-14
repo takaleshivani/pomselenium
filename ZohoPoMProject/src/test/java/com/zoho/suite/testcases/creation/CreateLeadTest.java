@@ -38,7 +38,7 @@ public class CreateLeadTest extends TestBase{
 	}
 	*/
 	@Test(dataProviderClass=TestDataProvider.class,dataProvider="getData")
-	public void CreateTaskTest(Hashtable<String, String> data)
+	public void createLeadTest(Hashtable<String, String> data)
 	{
 		session.log(data.toString());
 		if(data.get("RunMode").equals("N") && !DataUtil.isRunnable(xls, testName)) {
