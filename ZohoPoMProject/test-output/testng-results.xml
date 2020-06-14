@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LoginSuite" duration-ms="34292" started-at="2020-06-14T08:00:40 IST" finished-at="2020-06-14T08:01:14 IST">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="34292" started-at="2020-06-14T08:00:40 IST" finished-at="2020-06-14T08:01:14 IST">
+      <class name="com.zoho.suite.testcases.login.LoginTest">
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@1573f9fc]" name="init" is-config="true" duration-ms="397" started-at="2020-06-14T08:00:40 IST" finished-at="2020-06-14T08:00:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@1573f9fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@1573f9fc]" name="loginTest" duration-ms="31522" started-at="2020-06-14T08:00:41 IST" data-provider="getData" finished-at="2020-06-14T08:01:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=shivanitakale10@gmail.com, RunMode=Y, Password=Fast@1104, PasswordValid=Y, UsernameValid=Y, Browser=Firefox}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@1573f9fc]" name="quit" is-config="true" duration-ms="1894" started-at="2020-06-14T08:01:12 IST" finished-at="2020-06-14T08:01:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.zoho.suite.testcases.login.LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- LoginSuite -->
+</testng-results>

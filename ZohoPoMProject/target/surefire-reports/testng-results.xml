@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LoginSuite" duration-ms="2012" started-at="2020-06-14T09:39:12 IST" finished-at="2020-06-14T09:39:14 IST">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="2012" started-at="2020-06-14T09:39:12 IST" finished-at="2020-06-14T09:39:14 IST">
+      <class name="com.zoho.suite.testcases.login.LoginTest">
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@2b71e916]" name="init" is-config="true" duration-ms="237" started-at="2020-06-14T09:39:12 IST" finished-at="2020-06-14T09:39:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@2b71e916] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="FAIL" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@2b71e916]" name="loginTest" duration-ms="1472" started-at="2020-06-14T09:39:12 IST" data-provider="getData" finished-at="2020-06-14T09:39:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=shivanitakale10@gmail.com, RunMode=Y, Password=Fast@1104, PasswordValid=Y, UsernameValid=Y, Browser=Firefox}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to find provider for session: Capabilities {}
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-7VMSTSG7', ip: '192.168.43.226', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: driver.version: unknown
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'LAPTOP-7VMSTSG7', ip: '192.168.43.226', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: driver.version: ZohoDriver
+remote stacktrace: org.openqa.selenium.SessionNotCreatedException: Unable to find provider for session: Capabilities {}
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-7VMSTSG7', ip: '192.168.43.226', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: driver.version: unknown
+at org.openqa.selenium.grid.distributor.local.LocalDistributor.lambda$newSession$4(LocalDistributor.java:167)
+at org.openqa.selenium.grid.distributor.local.LocalDistributor$$Lambda$638/1581273261.get(Unknown Source)
+at java.util.Optional.orElseThrow(Unknown Source)
+at org.openqa.selenium.grid.distributor.local.LocalDistributor.newSession(LocalDistributor.java:161)
+at org.openqa.selenium.grid.distributor.Distributor.lambda$new$0(Distributor.java:88)
+at org.openqa.selenium.grid.distributor.Distributor$$Lambda$484/1184870822.execute(Unknown Source)
+at org.openqa.selenium.remote.http.Route$TemplatizedRoute.handle(Route.java:183)
+at org.openqa.selenium.remote.http.Route.execute(Route.java:67)
+at org.openqa.selenium.remote.http.Route$CombinedRoute.handle(Route.java:327)
+at org.openqa.selenium.remote.http.Route.execute(Route.java:67)
+at org.openqa.selenium.grid.distributor.Distributor.execute(Distributor.java:123)
+at org.openqa.selenium.remote.tracing.SpanWrappedHttpHandler.execute(SpanWrappedHttpHandler.java:75)
+at org.openqa.selenium.remote.http.Filter$1.execute(Filter.java:64)
+at org.openqa.selenium.remote.http.Route$CombinedRoute.handle(Route.java:327)
+at org.openqa.selenium.remote.http.Route.execute(Route.java:67)
+at org.openqa.selenium.grid.router.Router.execute(Router.java:67)
+at org.openqa.selenium.remote.http.Route$CombinedRoute.handle(Route.java:327)
+at org.openqa.selenium.remote.http.Route.execute(Route.java:67)
+at org.openqa.selenium.grid.server.AddWebDriverSpecHeaders.lambda$apply$0(AddWebDriverSpecHeaders.java:30)
+at org.openqa.selenium.grid.server.AddWebDriverSpecHeaders$$Lambda$456/980476445.execute(Unknown Source)
+at org.openqa.selenium.grid.server.WrapExceptions.lambda$apply$0(WrapExceptions.java:36)
+at org.openqa.selenium.grid.server.WrapExceptions$$Lambda$458/2068703270.execute(Unknown Source)
+at org.openqa.selenium.remote.http.Filter$1.execute(Filter.java:64)
+at org.openqa.selenium.netty.server.SeleniumHandler.lambda$channelRead0$0(SeleniumHandler.java:46)
+at org.openqa.selenium.netty.server.SeleniumHandler$$Lambda$454/1786544690.run(Unknown Source)
+at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to find provider for session: Capabilities {}
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-7VMSTSG7', ip: '192.168.43.226', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: driver.version: unknown
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'LAPTOP-7VMSTSG7', ip: '192.168.43.226', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: driver.version: ZohoDriver
+remote stacktrace: org.openqa.selenium.SessionNotCreatedException: Unable to find provider for session: Capabilities {}
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-7VMSTSG7', ip: '192.168.43.226', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: driver.version: unknown
+at org.openqa.selenium.grid.distributor.local.LocalDistributor.lambda$newSession$4(LocalDistributor.java:167)
+at org.openqa.selenium.grid.distributor.local.LocalDistributor$$Lambda$638/1581273261.get(Unknown Source)
+at java.util.Optional.orElseThrow(Unknown Source)
+at org.openqa.selenium.grid.distributor.local.LocalDistributor.newSession(LocalDistributor.java:161)
+at org.openqa.selenium.grid.distributor.Distributor.lambda$new$0(Distributor.java:88)
+at org.openqa.selenium.grid.distributor.Distributor$$Lambda$484/1184870822.execute(Unknown Source)
+at org.openqa.selenium.remote.http.Route$TemplatizedRoute.handle(Route.java:183)
+at org.openqa.selenium.remote.http.Route.execute(Route.java:67)
+at org.openqa.selenium.remote.http.Route$CombinedRoute.handle(Route.java:327)
+at org.openqa.selenium.remote.http.Route.execute(Route.java:67)
+at org.openqa.selenium.grid.distributor.Distributor.execute(Distributor.java:123)
+at org.openqa.selenium.remote.tracing.SpanWrappedHttpHandler.execute(SpanWrappedHttpHandler.java:75)
+at org.openqa.selenium.remote.http.Filter$1.execute(Filter.java:64)
+at org.openqa.selenium.remote.http.Route$CombinedRoute.handle(Route.java:327)
+at org.openqa.selenium.remote.http.Route.execute(Route.java:67)
+at org.openqa.selenium.grid.router.Router.execute(Router.java:67)
+at org.openqa.selenium.remote.http.Route$CombinedRoute.handle(Route.java:327)
+at org.openqa.selenium.remote.http.Route.execute(Route.java:67)
+at org.openqa.selenium.grid.server.AddWebDriverSpecHeaders.lambda$apply$0(AddWebDriverSpecHeaders.java:30)
+at org.openqa.selenium.grid.server.AddWebDriverSpecHeaders$$Lambda$456/980476445.execute(Unknown Source)
+at org.openqa.selenium.grid.server.WrapExceptions.lambda$apply$0(WrapExceptions.java:36)
+at org.openqa.selenium.grid.server.WrapExceptions$$Lambda$458/2068703270.execute(Unknown Source)
+at org.openqa.selenium.remote.http.Filter$1.execute(Filter.java:64)
+at org.openqa.selenium.netty.server.SeleniumHandler.lambda$channelRead0$0(SeleniumHandler.java:46)
+at org.openqa.selenium.netty.server.SeleniumHandler$$Lambda$454/1786544690.run(Unknown Source)
+at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.W3CHandshakeResponse$$Lambda$494/1811125173.apply(Unknown Source)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.HandshakeResponse$$Lambda$488/1856944920.apply(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake$$Lambda$490/772408264.apply(Unknown Source)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:529)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:516)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:149)
+at com.zoho.web.ZohoDriver.opneBrowser(ZohoDriver.java:49)
+at com.zoho.base.normalpage.LaunchPage.openBrowser(LaunchPage.java:19)
+at com.zoho.suite.testcases.login.LoginTest.loginTest(LoginTest.java:65)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.TestRunner$$Lambda$57/1248734754.accept(Unknown Source)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.zoho.suite.testcases.login.LoginTest@2b71e916]" name="quit" is-config="true" duration-ms="137" started-at="2020-06-14T09:39:14 IST" finished-at="2020-06-14T09:39:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.zoho.suite.testcases.login.LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- LoginSuite -->
+  <suite name="CreationSuite" duration-ms="1942" started-at="2020-06-14T09:39:12 IST" finished-at="2020-06-14T09:39:14 IST">
+    <groups>
+    </groups>
+    <test name="Delete Lead" duration-ms="902" started-at="2020-06-14T09:39:12 IST" finished-at="2020-06-14T09:39:13 IST">
+      <class name="com.zoho.suite.testcases.creation.CreateTask">
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:com.zoho.suite.testcases.creation.CreateTask@7c7b252e]" name="init" is-config="true" duration-ms="237" started-at="2020-06-14T09:39:12 IST" finished-at="2020-06-14T09:39:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CreateTask.createLeadTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.creation.CreateTask@7c7b252e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="createLeadTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.creation.CreateTask@7c7b252e]" name="createLeadTest" duration-ms="25" started-at="2020-06-14T09:39:12 IST" data-provider="getData" finished-at="2020-06-14T09:39:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y, Lead_Company=Shelby Pvt, Lead_Name=Thomas Shelby, Browser=Firefox}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeadTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.zoho.suite.testcases.creation.CreateTask@7c7b252e]" name="quit" is-config="true" duration-ms="487" started-at="2020-06-14T09:39:12 IST" finished-at="2020-06-14T09:39:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.zoho.suite.testcases.creation.CreateTask -->
+    </test> <!-- Delete Lead -->
+    <test name="CreateLead" duration-ms="1942" started-at="2020-06-14T09:39:12 IST" finished-at="2020-06-14T09:39:14 IST">
+      <class name="com.zoho.suite.testcases.creation.CreateLeadTest">
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:com.zoho.suite.testcases.creation.CreateLeadTest@3febb011]" name="init" is-config="true" duration-ms="237" started-at="2020-06-14T09:39:12 IST" finished-at="2020-06-14T09:39:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CreateLeadTest.CreateTaskTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.creation.CreateLeadTest@3febb011] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="FAIL" signature="CreateTaskTest(java.util.Hashtable)[pri:0, instance:com.zoho.suite.testcases.creation.CreateLeadTest@3febb011]" name="CreateTaskTest" duration-ms="1472" started-at="2020-06-14T09:39:12 IST" data-provider="getData" finished-at="2020-06-14T09:39:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y, Task_Name=Thomas Shelby, Browser=Firefox}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to find provider for session: Capabilities {}
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-7VMSTSG7', ip: '192.168.43.226', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: driver.version: unknown
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'LAPTOP-7VMSTSG7', ip: '192.168.43.226', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: driver.version: ZohoDriver
+remote stacktrace: org.openqa.selenium.SessionNotCreatedException: Unable to find provider for session: Capabilities {}
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-7VMSTSG7', ip: '192.168.43.226', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: driver.version: unknown
+at org.openqa.selenium.grid.distributor.local.LocalDistributor.lambda$newSession$4(LocalDistributor.java:167)
+at org.openqa.selenium.grid.distributor.local.LocalDistributor$$Lambda$638/1581273261.get(Unknown Source)
+at java.util.Optional.orElseThrow(Unknown Source)
+at org.openqa.selenium.grid.distributor.local.LocalDistributor.newSession(LocalDistributor.java:161)
+at org.openqa.selenium.grid.distributor.Distributor.lambda$new$0(Distributor.java:88)
+at org.openqa.selenium.grid.distributor.Distributor$$Lambda$484/1184870822.execute(Unknown Source)
+at org.openqa.selenium.remote.http.Route$TemplatizedRoute.handle(Route.java:183)
+at org.openqa.selenium.remote.http.Route.execute(Route.java:67)
+at org.openqa.selenium.remote.http.Route$CombinedRoute.handle(Route.java:327)
+at org.openqa.selenium.remote.http.Route.execute(Route.java:67)
+at org.openqa.selenium.grid.distributor.Distributor.execute(Distributor.java:123)
+at org.openqa.selenium.remote.tracing.SpanWrappedHttpHandler.execute(SpanWrappedHttpHandler.java:75)
+at org.openqa.selenium.remote.http.Filter$1.execute(Filter.java:64)
+at org.openqa.selenium.remote.http.Route$CombinedRoute.handle(Route.java:327)
+at org.openqa.selenium.remote.http.Route.execute(Route.java:67)
+at org.openqa.selenium.grid.router.Router.execute(Router.java:67)
+at org.openqa.selenium.remote.http.Route$CombinedRoute.handle(Route.java:327)
+at org.openqa.selenium.remote.http.Route.execute(Route.java:67)
+at org.openqa.selenium.grid.server.AddWebDriverSpecHeaders.lambda$apply$0(AddWebDriverSpecHeaders.java:30)
+at org.openqa.selenium.grid.server.AddWebDriverSpecHeaders$$Lambda$456/980476445.execute(Unknown Source)
+at org.openqa.selenium.grid.server.WrapExceptions.lambda$apply$0(WrapExceptions.java:36)
+at org.openqa.selenium.grid.server.WrapExceptions$$Lambda$458/2068703270.execute(Unknown Source)
+at org.openqa.selenium.remote.http.Filter$1.execute(Filter.java:64)
+at org.openqa.selenium.netty.server.SeleniumHandler.lambda$channelRead0$0(SeleniumHandler.java:46)
+at org.openqa.selenium.netty.server.SeleniumHandler$$Lambda$454/1786544690.run(Unknown Source)
+at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to find provider for session: Capabilities {}
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-7VMSTSG7', ip: '192.168.43.226', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: driver.version: unknown
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'LAPTOP-7VMSTSG7', ip: '192.168.43.226', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: driver.version: ZohoDriver
+remote stacktrace: org.openqa.selenium.SessionNotCreatedException: Unable to find provider for session: Capabilities {}
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-7VMSTSG7', ip: '192.168.43.226', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: driver.version: unknown
+at org.openqa.selenium.grid.distributor.local.LocalDistributor.lambda$newSession$4(LocalDistributor.java:167)
+at org.openqa.selenium.grid.distributor.local.LocalDistributor$$Lambda$638/1581273261.get(Unknown Source)
+at java.util.Optional.orElseThrow(Unknown Source)
+at org.openqa.selenium.grid.distributor.local.LocalDistributor.newSession(LocalDistributor.java:161)
+at org.openqa.selenium.grid.distributor.Distributor.lambda$new$0(Distributor.java:88)
+at org.openqa.selenium.grid.distributor.Distributor$$Lambda$484/1184870822.execute(Unknown Source)
+at org.openqa.selenium.remote.http.Route$TemplatizedRoute.handle(Route.java:183)
+at org.openqa.selenium.remote.http.Route.execute(Route.java:67)
+at org.openqa.selenium.remote.http.Route$CombinedRoute.handle(Route.java:327)
+at org.openqa.selenium.remote.http.Route.execute(Route.java:67)
+at org.openqa.selenium.grid.distributor.Distributor.execute(Distributor.java:123)
+at org.openqa.selenium.remote.tracing.SpanWrappedHttpHandler.execute(SpanWrappedHttpHandler.java:75)
+at org.openqa.selenium.remote.http.Filter$1.execute(Filter.java:64)
+at org.openqa.selenium.remote.http.Route$CombinedRoute.handle(Route.java:327)
+at org.openqa.selenium.remote.http.Route.execute(Route.java:67)
+at org.openqa.selenium.grid.router.Router.execute(Router.java:67)
+at org.openqa.selenium.remote.http.Route$CombinedRoute.handle(Route.java:327)
+at org.openqa.selenium.remote.http.Route.execute(Route.java:67)
+at org.openqa.selenium.grid.server.AddWebDriverSpecHeaders.lambda$apply$0(AddWebDriverSpecHeaders.java:30)
+at org.openqa.selenium.grid.server.AddWebDriverSpecHeaders$$Lambda$456/980476445.execute(Unknown Source)
+at org.openqa.selenium.grid.server.WrapExceptions.lambda$apply$0(WrapExceptions.java:36)
+at org.openqa.selenium.grid.server.WrapExceptions$$Lambda$458/2068703270.execute(Unknown Source)
+at org.openqa.selenium.remote.http.Filter$1.execute(Filter.java:64)
+at org.openqa.selenium.netty.server.SeleniumHandler.lambda$channelRead0$0(SeleniumHandler.java:46)
+at org.openqa.selenium.netty.server.SeleniumHandler$$Lambda$454/1786544690.run(Unknown Source)
+at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.W3CHandshakeResponse$$Lambda$494/1811125173.apply(Unknown Source)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.HandshakeResponse$$Lambda$488/1856944920.apply(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake$$Lambda$490/772408264.apply(Unknown Source)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:529)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:516)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:149)
+at com.zoho.web.ZohoDriver.opneBrowser(ZohoDriver.java:49)
+at com.zoho.base.normalpage.LaunchPage.openBrowser(LaunchPage.java:19)
+at com.zoho.suite.testcases.creation.CreateLeadTest.CreateTaskTest(CreateLeadTest.java:51)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.TestRunner$$Lambda$57/1248734754.accept(Unknown Source)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at org.testng.internal.thread.ThreadUtil$$Lambda$40/1315491350.call(Unknown Source)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTaskTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.zoho.suite.testcases.creation.CreateLeadTest@3febb011]" name="quit" is-config="true" duration-ms="71" started-at="2020-06-14T09:39:14 IST" finished-at="2020-06-14T09:39:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.zoho.suite.testcases.creation.CreateLeadTest -->
+    </test> <!-- CreateLead -->
+  </suite> <!-- CreationSuite -->
+</testng-results>
