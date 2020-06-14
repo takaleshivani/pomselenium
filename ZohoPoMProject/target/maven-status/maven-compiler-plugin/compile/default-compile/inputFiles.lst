@@ -2,6 +2,8 @@ C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\web\ZohoWe
 C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\pages\session\lead\LeadsPage.java
 C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\base\pages\ZohoBase.java
 C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\pages\session\contacts\Contacts.java
+C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\base\mail\Mail.java
+C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\base\mail\FileFilterDateIntervalUtils.java
 C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\pages\session\ZohoBaseSessionPage.java
 C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\listener\ZohoEventListener.java
 C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\pages\session\lead\LeadDetailsPage.java
@@ -9,6 +11,7 @@ C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\web\ZohoDr
 C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\pages\components\common\session\Header.java
 C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\pages\session\IntermediatePage.java
 C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\pages\session\lead\NewLeadPage.java
+C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\base\mail\Zip.java
 C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\base\normalpage\EnterUsername.java
 C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\web\WebConnector.java
 C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\base\pages\Constants.java
@@ -19,6 +22,7 @@ C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\base\sessi
 C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\web\ZohoValidationDriver.java
 C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\base\normalpage\LaunchPage.java
 C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\util\Xls_Reader.java
+C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\base\mail\ZipAndSendMail.java
 C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\base\pages\ZohoNormal.java
 C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\pages\session\contacts\NewContacts.java
 C:\Users\Asus\eclipse-workspace\ZohoPoMProject\src\main\java\com\zoho\base\normalpage\EnterPassword.java

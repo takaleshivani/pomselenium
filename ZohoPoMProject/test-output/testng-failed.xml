@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CreateLeadTest">
+      <class name="com.zoho.suite.testcases.login.LoginTest">
         <methods>
-          <include name="quit"/>
-          <include name="createLeadTest" invocation-numbers="0"/>
           <include name="init"/>
+          <include name="loginTest" invocation-numbers="0"/>
+          <include name="quit"/>
         </methods>
-      </class> <!-- CreateLeadTest -->
+      </class> <!-- com.zoho.suite.testcases.login.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

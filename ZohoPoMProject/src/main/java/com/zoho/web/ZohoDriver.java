@@ -58,20 +58,11 @@ public class ZohoDriver extends ZohoValidationDriver {
 			
 			
 		}else {
-			if(browsername.equalsIgnoreCase("firefox"))
-			{
 				driver=new EventFiringWebDriver(new FirefoxDriver());
 				driver.register(new ZohoEventListener());
 				driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 				driver.manage().window().maximize();
-			}
-			else if(browsername.equalsIgnoreCase("ie"))
-			{
-				driver=new EventFiringWebDriver(new InternetExplorerDriver());
-				driver.register(new ZohoEventListener());
-				driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
-				driver.manage().window().maximize();
-			}
+			
 		}
 	}
 
